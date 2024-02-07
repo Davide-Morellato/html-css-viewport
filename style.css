@@ -1,0 +1,82 @@
+/* Reset Rules */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul, ol, menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{ 
+    max-width: 100%;
+}
+
+
+/* DEBUG */
+
+.page-header, .logo, .links-nav, .profile{
+    border: 2px solid white;
+    padding: 10px;
+}
+
+/* STRUTTURA */
+
+#web-app{
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    flex-grow: 1;
+}
+
+.page-header{
+    background-color: black;
+    flex-basis: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* MAIN */
+
+.page-main{
+    background-color: green;
+    flex-grow: 1;
+}
+
+/* FOOTER */
+
+.page-footer{
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.footer-container{
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.links-footer{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+}
