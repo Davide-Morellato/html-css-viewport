@@ -23,7 +23,7 @@ img{
 
 /* DEBUG */
 
-.page-header, .logo, .links-nav, .profile{
+.page-header, .logo, .links-nav, .profile, .top-bar, .section-main, .card{
     border: 2px solid white;
     padding: 10px;
 }
@@ -55,6 +55,17 @@ img{
 .page-main{
     background-color: green;
     flex-grow: 1;
+}
+
+.section-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    height: 100px;
 }
 
 /* FOOTER */
