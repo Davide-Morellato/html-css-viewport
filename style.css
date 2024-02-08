@@ -6,7 +6,6 @@
     margin: 0;
 }
 
-
 ul, ol, menu{
     list-style: none;
 }
@@ -42,6 +41,9 @@ img{
     flex-grow: 1;
 }
 
+
+/* HEADER */
+
 .page-header{
     background-color: black;
     flex-basis: 150px;
@@ -49,6 +51,11 @@ img{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.profile{
+    margin-top: auto;
+}
+
 
 /* MAIN */
 
